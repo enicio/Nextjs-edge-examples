@@ -1,0 +1,23 @@
+{
+  "name": "tst-next-edge-repo",
+  "type": "nextjs",
+  "env": "production",
+  "version-id": "20230509180258",
+  "function": {
+    "id": 0,
+    "name": "__DEFAULT__",
+    "file": "./out/worker.js",
+    "args": "./azion/args.json"
+  },
+  "application": {
+    "id": 0,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 0,
+    "name": "__DEFAULT__"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  }
+}
