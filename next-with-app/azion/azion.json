@@ -1,20 +1,20 @@
 {
-  "name": "next-app-13-1-content-type",
+  "name": "next-with-app",
   "type": "nextjs",
   "env": "production",
-  "version-id": "20230519155011",
+  "version-id": "20230523103254",
   "function": {
-    "id": 9246,
+    "id": 9207,
     "name": "__DEFAULT__",
     "file": "./out/worker.js",
     "args": "./azion/args.json"
   },
   "application": {
-    "id": 1684500027,
+    "id": 1684259919,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1684501559,
+    "id": 1684251077,
     "name": "__DEFAULT__"
   },
   "rt-purge": {

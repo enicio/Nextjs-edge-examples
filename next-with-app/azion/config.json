@@ -1,0 +1,8 @@
+{
+    "build": {
+        "cmd": "",
+        "env": "./azion/webdev.env",
+        "output-ctrl": "disable",
+        "default": "azion-framework-adapter build --version-id %s || exit $?"
+   }
+}

@@ -13,13 +13,16 @@ const EdgeSsrExample = ({ message }: any) => {
 export const getServerSideProps = async () => {
   console.log("Running server side EdgeSsrExample!");
 
+
   const message = `The answer : ${6*7}`;
 
   return { props: { message } }
 }
 
-export const config = {
-  runtime: 'experimental-edge',
-}
+// export const config = {
+//   runtime: 'experimental-edge',
+// }
+
+export const runtime = 'experimental-edge'; // 'nodejs' (default) | 'edge'
 
 export default EdgeSsrExample
