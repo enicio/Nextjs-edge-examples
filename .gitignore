@@ -1,0 +1,5 @@
+**/.next
+**/azion
+**/node_modules
+**/out
+**/.vercel

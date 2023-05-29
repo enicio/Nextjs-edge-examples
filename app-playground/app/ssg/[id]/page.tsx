@@ -1,6 +1,8 @@
 import { RenderingInfo } from '#/ui/rendering-info';
 import { notFound } from 'next/navigation';
 
+export const runtime = "edge";
+
 export async function generateStaticParams() {
   // Generate two pages at build time and the rest (3-100) on-demand
   return [{ id: '1' }, { id: '2' }];

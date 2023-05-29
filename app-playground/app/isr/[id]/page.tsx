@@ -1,6 +1,7 @@
 import { RenderingInfo } from '#/ui/rendering-info';
 
 export const dynamicParams = true;
+export const runtime = "edge";
 
 export async function generateStaticParams() {
   return [{ id: '1' }, { id: '2' }, { id: '3' }];

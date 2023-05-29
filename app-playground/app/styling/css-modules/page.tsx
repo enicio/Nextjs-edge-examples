@@ -1,7 +1,7 @@
 'use client';
 
 import styles from './styles.module.css';
-
+export const runtime = "edge";
 const SkeletonCard = () => (
   <div className={styles.skeleton}>
     <div className={styles['skeleton-img']} />

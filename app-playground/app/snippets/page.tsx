@@ -1,6 +1,8 @@
 import { ExternalLink } from '#/ui/external-link';
 import Link from 'next/link';
 
+export const runtime = "edge";
+
 const items = [
   {
     name: 'Updating searchParams',

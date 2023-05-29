@@ -1,5 +1,5 @@
 import './styles.css';
-
+export const runtime = "edge";
 const SkeletonCard = () => (
   <div className="skeleton">
     <div className="skeleton-img" />

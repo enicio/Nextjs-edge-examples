@@ -1,6 +1,8 @@
 import { getProducts, IProduct } from '#/lib/page-directory/get-products';
 import { ProductCard } from '#/ui/product-card';
 
+// export const runtime = "experimental-edge";
+
 export const getStaticProps = async () => {
   const products = await getProducts();
 

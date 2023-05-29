@@ -1,5 +1,7 @@
 import { ExternalLink } from '#/ui/external-link';
 
+export const runtime = "edge";
+
 export default async function Page() {
   return (
     <div className="prose prose-sm prose-invert max-w-none">
